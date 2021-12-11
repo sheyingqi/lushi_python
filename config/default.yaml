@@ -1,0 +1,48 @@
+auto_restart: true
+auto_tasks: false
+bn_path: C:/Program Files (x86)/Battle.net/Battle.net.exe
+boss_id: 5
+confidence: 0.8
+delay: 0.5
+early_stop: false
+hero:
+  BARL_024H:
+  - "\u5251\u5723\u8428\u7A46\u7F57"
+  - Blademaster Samuro
+  - 1, 2, 3
+  - 0
+  LETL_002H:
+  - "\u63D0\u91CC\u5965\xB7\u5F17\u4E01"
+  - Tirion Fordring
+  - 1, 2, 3
+  - 3
+  LETL_009H:
+  - "\u683C\u7F57\u739B\u4EC0\xB7\u5730\u72F1\u5486\u54EE"
+  - Grommash Hellscream
+  - 3, 1, 2
+  - 1
+  LETL_016H:
+  - "\u6D1B\u5361\u62C9"
+  - Rokara
+  - 2, 1, 3
+  - 2
+  LETL_036H:
+  - "\u53E4\u592B\xB7\u7B26\u6587\u56FE\u817E"
+  - Guff Runetotem
+  - 1, 2, 3
+  - 4
+  SWL_06H:
+  - "\u8003\u5185\u7559\u65AF\xB7\u7F57\u59C6"
+  - Cornelius Roame
+  - 1, 2, 3
+  - 5
+hs_path: C:/Program Files (x86)/Hearthstone/Hearthstone.exe
+lang: ZH-1600x900
+longest_waiting: 80
+reward_count_dropdown: 'all'
+screenshot_error: true
+screenshot_reward: false
+screenshot_treasure: false
+screenshot_visitor: false
+team_id: 0
+ui_lang: chs
