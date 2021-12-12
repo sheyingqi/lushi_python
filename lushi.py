@@ -276,7 +276,6 @@ class Agent:
                     if skill_cooldown_round == 0:
                         skill_loc = tuple_add(rect, (self.locs.skills[skill_id], self.locs.skills[-1]))
                         break
-            logger.info(f"skill_id {skill_id} skill_loc  {skill_loc}")
             pyautogui.click(skill_loc)
             enemy_id = strategy[hero_i]
             pyautogui.click(game.enemy_hero[enemy_id].pos)
